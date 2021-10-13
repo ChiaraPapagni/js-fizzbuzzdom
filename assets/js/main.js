@@ -17,6 +17,9 @@ for (let i = 1; i <= 100; i++) {
     //in base questo assegno altre classi a li
     if (i % 3 == 0 && i % 5 == 0) {
         li.className += ' red';
+
+        //modifico il contenuto di li
+        li.innerHTML = 'fizzbuzz';
     } else if (i % 5 == 0) {
         li.className += ' yellow';
     } else if (i % 3 == 0) {
