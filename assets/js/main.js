@@ -8,6 +8,7 @@ const ul = document.querySelector('ul.list');
 for (let i = 1; i <= 100; i++) {
     //append()
     const li = document.createElement('li');
+    li.className = 'box'
     li.append(i);
     ul.append(li);
 }

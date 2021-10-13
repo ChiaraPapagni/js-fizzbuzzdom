@@ -17,3 +17,37 @@ h1 {
     font-size: 3.5rem;
     text-align: center;
 }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #3D88AE;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.green {
+    content: 'fizz';
+    background-color: #61D2A4;
+}
+
+.yellow {
+    content: 'buzz';
+    background-color: #F9D277;
+}
+
+.red {
+    content: 'fizzbuzz';
+    background-color: #DE5471;
+}
