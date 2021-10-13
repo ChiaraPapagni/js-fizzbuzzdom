@@ -43,16 +43,13 @@ h1 {
 }
 
 .green {
-    content: 'fizz';
     background-color: #61D2A4;
 }
 
 .yellow {
-    content: 'buzz';
     background-color: #F9D277;
 }
 
 .red {
-    content: 'fizzbuzz';
     background-color: #DE5471;
 }
