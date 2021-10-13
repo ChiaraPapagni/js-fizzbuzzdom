@@ -4,3 +4,16 @@
     margin: 0;
     padding: 0;
 }
+
+/* Utility */
+body {
+    background-color: #183A4A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 2rem 0;
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    text-align: center;
+}
