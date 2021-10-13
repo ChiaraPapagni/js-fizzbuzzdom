@@ -20,12 +20,21 @@ for (let i = 1; i <= 100; i++) {
 
         //modifico il contenuto di li
         li.innerHTML = 'fizzbuzz';
+
     } else if (i % 5 == 0) {
+
         li.className += ' yellow';
+        li.innerHTML = 'buzz';
+
     } else if (i % 3 == 0) {
+
         li.className += ' green';
+        li.innerHTML = 'fizz';
+
+    } else {
+
+        li.append(i);
     }
 
-    li.append(i);
     ul.append(li);
 }
